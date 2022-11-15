@@ -2,14 +2,19 @@
 ## Overview
 Team will make use of provided datasets, scripts, and other resources to explore innovative method to extract information from vison and auditory.  
 
+Team can think of some potential focuses:
+- Photo-based viewshed analysis
+- Training soundscape prediction based on pairwised comparison labels
+- Predicting soundscape using sounds and photos
+
 ## Datasets
 Provided datasets include photos and sounds/spectrograms collected from 200 locations across the city core of Ann Arbor, MI.
 
-- Spatial points of 200 locations
+- Spatial points of [200 locations](https://github.com/billbillbilly/Database/tree/main/viewscape_data)
 - 360-degree photos 
 - Spectrograms extracted from outdoor sounds recordings
 - Pretrained model for sematic segmentation based on CamVid dataset
-- Pretrained model for soundscape emotional response prediction based on Emo-soundscpe dataset
+- Pretrained model for soundscape emotional response prediction based on [Emo-soundscpes](https://metacreation.net/emo-soundscapes/) dataset
 - other data source: 
 	- [PlacePlus 2.0](https://www.dropbox.com/s/grzoiwsaeqrmc1l/place-pulse-2.0.zip?dl=0)
 	- [KITTI dataset](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d)
