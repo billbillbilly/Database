@@ -35,7 +35,8 @@ Provided datasets include photos and sounds/spectrograms collected from 200 loca
 - [Ono, Y., Hara, S., & Abe, M. (2022). Prediction method of Soundscape Impressions using Environmental Sounds and Aerial Photographs. arXiv preprint arXiv:2209.04077.](https://arxiv.org/pdf/2209.04077.pdf)
 
 ## Usage of this instruction
-1. Get a Google account and set up a folder in your Google Drive.
+1. Get a Google account and set up a folder in your Google Drive. 
+In this case, let's assume you create a folder called 'multisensory_data'
 
 2. Create a new Google [Colab](https://colab.research.google.com/) file (jupyter notebook) in the folder.
 In Colab, you should connect to your Google Drive and set up the work directory.
@@ -60,7 +61,7 @@ def set_working_directory(project_folder):
 set_working_directory(project_folder)
 ```
 
-Then, you can clone this repo with the code below in your second code cell:
+Then, you can clone this repo in your work directory with the code below in your second code cell:
 
 ```
 ! git clone https://github.com/billbillbilly/Database.git
