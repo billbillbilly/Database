@@ -1,11 +1,16 @@
 # Multisensory perception - [1st Annual SEAS Hackathon@the SEAS Sustainable Future Hub](https://sites.google.com/umich.edu/hackathon/home)
 ## Overview
-Team will make use of provided datasets, scripts, and other resources to explore innovative method to extract information from vison and auditory.  
+Team can make use of provided datasets, scripts, or other resources to explore topics or innovative methods to extract information from vison and auditory.  
 
 Team can think of some potential focuses:
-- Photo-based viewshed analysis
-- Training soundscape prediction based on pairwised comparison labels
-- Predicting soundscape using sounds and photos
+- **Any topics that interest you the most... Enjoy the Hackathon!**
+- The linkage between view depth of images and perceptions
+- The distribution of different sound events
+- The spatial distribution of semantic segmentation/greeness in image depth
+- Some challenges...
+	- Photo-based viewshed analysis (image2LiDAR)
+	- Training soundscape prediction based on pairwised comparison labels
+	- Predicting soundscape using sounds and photos
 
 ## Datasets
 Provided datasets include photos and sounds/spectrograms collected from 200 locations across the city core of Ann Arbor, MI.
@@ -20,14 +25,20 @@ Provided datasets include photos and sounds/spectrograms collected from 200 loca
 	- [KITTI dataset](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d)
 
 ## Potential Packages 
+- ```google-streetview``` a python package for scrapping Google street view using API
 - ```fastai``` a python package for training neuralnetwork
 - ```viewscape``` an R package for computing land information within viewshed
 
-## Scripts
+## Sample Scripts
+- Panoramic photo slpliter
 - Semantic segmetation
 - Visible greeness extraction
 - Soundscape emotion prediction
 - Image depth estimation
+
+## Other Helpful Resources
+- [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving](https://github.com/mileyan/pseudo_lidar/tree/6e60ebabd47082af4031fed4481d23d9bca4598f#usage)
+- [Audio event recognition](https://essentia.upf.edu/models.html#audio-event-recognition)
 
 ## Recommanded Readings
 - [Salesses, P., Schechtner, K., & Hidalgo, C. A. (2013). The collaborative image of the city: mapping the inequality of urban perception. PloS one, 8(7), e68400.](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_12#Tab1)
@@ -61,7 +72,7 @@ def set_working_directory(project_folder):
 set_working_directory(project_folder)
 ```
 
-Then, you can clone this repo in your work directory with the code below in your second code cell:
+3. Then, you can clone this repo in your work directory with the code below in your second code cell:
 
 ```
 ! git clone https://github.com/billbillbilly/Database.git
