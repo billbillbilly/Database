@@ -1,4 +1,4 @@
-# Multisensory perception - 1st Annual SEAS Hackathon@the SEAS Sustainable Future Hub
+# Multisensory perception - [1st Annual SEAS Hackathon@the SEAS Sustainable Future Hub](https://sites.google.com/umich.edu/hackathon/home)
 ## Overview
 Team will make use of provided datasets, scripts, and other resources to explore innovative method to extract information from vison and auditory.  
 
@@ -10,7 +10,9 @@ Provided datasets include photos and sounds/spectrograms collected from 200 loca
 - Spectrograms extracted from outdoor sounds recordings
 - Pretrained model for sematic segmentation based on CamVid dataset
 - Pretrained model for soundscape emotional response prediction based on Emo-soundscpe dataset
-- other data source: PlacePlus
+- other data source: 
+	- [PlacePlus 2.0](https://www.dropbox.com/s/grzoiwsaeqrmc1l/place-pulse-2.0.zip?dl=0)
+	- [KITTI dataset](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d)
 
 ## Potential Packages 
 - ```fastai``` a python package for training neuralnetwork
@@ -20,6 +22,7 @@ Provided datasets include photos and sounds/spectrograms collected from 200 loca
 - Semantic segmetation
 - Visible greeness extraction
 - Soundscape emotion prediction
+- Image depth estimation
 
 ## Recommanded Readings
 - [Deep Learning the City: Quantifying Urban Perception at a Global Scale](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_12#Tab1)
