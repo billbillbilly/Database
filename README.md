@@ -30,6 +30,39 @@ Provided datasets include photos and sounds/spectrograms collected from 200 loca
 - Image depth estimation
 
 ## Recommanded Readings
-- [Deep Learning the City: Quantifying Urban Perception at a Global Scale](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_12#Tab1)
-- [Modeling restorative potential of urban environments by coupling viewscape analysis of lidar data with experiments in immersive virtual environments](https://www.sciencedirect.com/science/article/pii/S016920461930831X)
-- [Prediction method of Soundscape Impressions using Environmental Sounds and Aerial Photographs](https://arxiv.org/pdf/2209.04077.pdf)
+- [Salesses, P., Schechtner, K., & Hidalgo, C. A. (2013). The collaborative image of the city: mapping the inequality of urban perception. PloS one, 8(7), e68400.](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_12#Tab1)
+- [Tabrizian, P., Baran, P. K., Van Berkel, D., Mitasova, H., & Meentemeyer, R. (2020). Modeling restorative potential of urban environments by coupling viewscape analysis of lidar data with experiments in immersive virtual environments. Landscape and Urban planning, 195, 103704.](https://www.sciencedirect.com/science/article/pii/S016920461930831X)
+- [Ono, Y., Hara, S., & Abe, M. (2022). Prediction method of Soundscape Impressions using Environmental Sounds and Aerial Photographs. arXiv preprint arXiv:2209.04077.](https://arxiv.org/pdf/2209.04077.pdf)
+
+## Usage of this instruction
+1. Get a Google account and set up a folder in your Google Drive.
+
+2. Create a new Google [Colab](https://colab.research.google.com/) file (jupyter notebook) in the folder.
+In Colab, you should connect to your Google Drive and set up the work directory.
+
+Here is what you run in your first code cell:
+
+```
+from google.colab import drive
+drive.mount('/content/drive')
+# setup working directory to a folder in Google Drive
+import os 
+root_dir = "/content/drive/My Drive/"
+# set folder name (this folder should exist in 'root_dir')
+project_folder = "multisensory_data/"
+
+def set_working_directory(project_folder):
+  # change the OS to use your project folder as the working directory
+  os.chdir(root_dir + project_folder)
+  print('\nYour working directory was changed to ' + root_dir + project_folder + \
+        "\n\nYou can also run !pwd to confirm the current working directory." )
+
+set_working_directory(project_folder)
+```
+
+Then, you can clone this repo with the code below in your second code cell:
+
+```
+! git clone https://github.com/billbillbilly/Database.git
+```
+Well done! Now you are able to start!
