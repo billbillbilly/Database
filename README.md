@@ -39,6 +39,7 @@ Provided datasets include photos and sounds/spectrograms collected from 200 loca
 ## Other Helpful Resources
 - [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving](https://github.com/mileyan/pseudo_lidar/tree/6e60ebabd47082af4031fed4481d23d9bca4598f#usage)
 - [Audio event recognition](https://essentia.upf.edu/models.html#audio-event-recognition)
+- [Parallel Loops in Python&R](https://www.dominodatalab.com/blog/simple-parallelization)
 
 ## Recommanded Readings
 - [Salesses, P., Schechtner, K., & Hidalgo, C. A. (2013). The collaborative image of the city: mapping the inequality of urban perception. PloS one, 8(7), e68400.](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_12#Tab1)
