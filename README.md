@@ -36,7 +36,7 @@ Provided datasets include photos and sounds/spectrograms collected from 200 loca
 
 ## Usage of this instruction
 1. Get a Google account and set up a folder in your Google Drive. 
-In this case, let's assume you create a folder called 'multisensory_data'
+In this case, let's assume you create a folder called `multisensory_data`.
 
 2. Create a new Google [Colab](https://colab.research.google.com/) file (jupyter notebook) in the folder.
 In Colab, you should connect to your Google Drive and set up the work directory.
