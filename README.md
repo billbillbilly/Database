@@ -1,12 +1,13 @@
 # Multisensory perception - [1st Annual SEAS Hackathon@the SEAS Sustainable Future Hub](https://sites.google.com/umich.edu/hackathon/home)
 ## Overview
-Team can make use of provided datasets, scripts, or other resources to explore topics or innovative methods to extract information from vison and auditory.  
+Team can make use of provided datasets, scripts, or other resources to explore topics or innovative methods 
+to extract information from vison and auditory.  
 
 Team can think of some potential focuses:
 - **Any topics that interest you the most... Enjoy the Hackathon!**
 - The usage of image depth for environmental sciense 
 - The distribution of different sound events
-- The semantic segmentation/greeness in image depth
+- The viewshed and urban perceptions
 - Some challenges...
 	- Photo-based viewshed analysis (image2LiDAR)
 	- Training soundscape prediction based on pairwised comparison labels
@@ -16,10 +17,10 @@ Team can think of some potential focuses:
 Provided datasets include photos and sounds/spectrograms collected from 200 locations across the city core of Ann Arbor, MI.
 
 - Spatial points of [200 locations](https://github.com/billbillbilly/Database/tree/main/viewscape_data)
-- 360-degree photos 
-- Spectrograms extracted from outdoor sounds recordings
+- 360-degree photos (from 200 locations)
+- Spectrograms extracted from outdoor sounds recordings (from 200 location)
 - Pretrained model for sematic segmentation based on [CamVid dataset](https://paperswithcode.com/dataset/camvid)
-- Pretrained model for soundscape emotional response prediction based on [Emo-soundscpes](https://metacreation.net/emo-soundscapes/) dataset
+- [ESC-50: Dataset for Environmental Sound Classification](https://github.com/karolpiczak/ESC-50)
 - other data source: 
 	- [PlacePlus 2.0](https://www.dropbox.com/s/grzoiwsaeqrmc1l/place-pulse-2.0.zip?dl=0)
 	- [KITTI dataset](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d)
@@ -33,13 +34,14 @@ Provided datasets include photos and sounds/spectrograms collected from 200 loca
 - Panoramic photo slpliter
 - Semantic segmetation
 - Visible greeness extraction
-- Soundscape emotion prediction
+- Sound semantic clssification
 - Image depth estimation
 
 ## Other Helpful Resources
 - [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving](https://github.com/mileyan/pseudo_lidar/tree/6e60ebabd47082af4031fed4481d23d9bca4598f#usage)
 - [Audio event recognition](https://essentia.upf.edu/models.html#audio-event-recognition)
 - [Parallel Loops in Python&R](https://www.dominodatalab.com/blog/simple-parallelization)
+- [NOAA DATA ACCESS VIEWER](https://coast.noaa.gov/dataviewer/#/)
 
 ## Recommanded Readings
 - [Salesses, P., Schechtner, K., & Hidalgo, C. A. (2013). The collaborative image of the city: mapping the inequality of urban perception. PloS one, 8(7), e68400.](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_12#Tab1)
