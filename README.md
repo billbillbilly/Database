@@ -4,9 +4,9 @@ Team can make use of provided datasets, scripts, or other resources to explore t
 
 Team can think of some potential focuses:
 - **Any topics that interest you the most... Enjoy the Hackathon!**
-- The linkage between view depth of images and perceptions
+- The usage of image depth for environmental sciense 
 - The distribution of different sound events
-- The spatial distribution of semantic segmentation/greeness in image depth
+- The semantic segmentation/greeness in image depth
 - Some challenges...
 	- Photo-based viewshed analysis (image2LiDAR)
 	- Training soundscape prediction based on pairwised comparison labels
@@ -18,7 +18,7 @@ Provided datasets include photos and sounds/spectrograms collected from 200 loca
 - Spatial points of [200 locations](https://github.com/billbillbilly/Database/tree/main/viewscape_data)
 - 360-degree photos 
 - Spectrograms extracted from outdoor sounds recordings
-- Pretrained model for sematic segmentation based on CamVid dataset
+- Pretrained model for sematic segmentation based on [CamVid dataset](https://paperswithcode.com/dataset/camvid)
 - Pretrained model for soundscape emotional response prediction based on [Emo-soundscpes](https://metacreation.net/emo-soundscapes/) dataset
 - other data source: 
 	- [PlacePlus 2.0](https://www.dropbox.com/s/grzoiwsaeqrmc1l/place-pulse-2.0.zip?dl=0)
@@ -78,4 +78,7 @@ set_working_directory(project_folder)
 ```
 ! git clone https://github.com/billbillbilly/Database.git
 ```
+
+4. Finally, you can download datasets using `datasets.ipynb` in `scripts` folder.
+
 Well done! Now you are able to start!
